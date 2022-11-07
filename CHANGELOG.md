@@ -2,6 +2,10 @@
 
 # intellij-cute-pink-dark-theme Changelog
 
+## 0.6.4 - 2022-11-07
+### Fixed
+- Ensure compatibility for 2022.2 stable (222, PS-222.*, 2022.2)
+
 ## 0.6.0 - 2022-11-07
 - add Cute Pink Dark Theme variant as a downstream repository
 - set editor background and gutter color
