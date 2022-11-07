@@ -1,7 +1,7 @@
 # Cute Pink Dark Theme
 
 <!-- Plugin description -->
-Cute Pink Dark Theme is a dark IDE theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) adding  cute pink colors to your IDE. theme),  Unlike the original [Cute Pink Light Theme](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme), which has been inspired by [a theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme), Cute Pink Dark Theme is based on the default dark mode editor scheme.
+[Cute Pink Dark Theme](https://plugins.jetbrains.com/plugin/20367-cute-pink-dark-theme) is a dark IDE theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) adding  cute pink colors to your IDE. theme),  Unlike the original [Cute Pink Light Theme](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme), which has been inspired by [a theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme), Cute Pink Dark Theme is based on the default dark mode editor scheme.
 
 **BETA: This theme is usable, but still unfinished!**
 
