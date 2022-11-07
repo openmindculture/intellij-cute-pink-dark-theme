@@ -1,9 +1,10 @@
 {
-  "name": "Cute Pink Light",
+  "name": "Cute Pink Dark",
   "dark": false,
   "author": "Ingo Steinke (openmindculture)",
-  "editorScheme": "/cute_pink_light.xml",
+  "editorScheme": "/cute_pink_dark.xml",
   "colors": {
+    "blackBg": "#000000",
     "whiteBg": "#FFFFFF",
     "pinkDeepBg": "#F14874",
     "whiteText": "#FFFFFF",
@@ -28,7 +29,7 @@
       "underlineColor": "purpleRedBorder",
       "errorFocusColor": "purpleRedFocusRect"
     },
-    "Editor.background": "whiteBg",
+    "Editor.background": "blackBg",
     "Button.default.foreground": "whiteText",
     "Borders": {
       "color": "whiteBg",

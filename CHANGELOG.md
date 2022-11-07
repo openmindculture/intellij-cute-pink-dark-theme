@@ -1,6 +1,10 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# intellij-cute-pink-light-theme Changelog
+# intellij-cute-pink-dark-theme Changelog
+
+## 0.6.0 - 2022-11-07
+- add Cute Pink Dark Theme variant as a downstream repository
+- set editor background and gutter color
 
 ## 0.5.0 - 2022-07-20
 ### Fixed
