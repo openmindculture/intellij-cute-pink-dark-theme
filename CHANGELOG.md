@@ -10,6 +10,16 @@
 - add Cute Pink Dark Theme variant as a downstream repository
 - set editor background and gutter color
 
+## 0.6.4 - 2022-11-07
+### Fixed
+- Ensure compatibility for 2022.2 stable (222, PS-222.*, 2022.2)
+
+## 0.6.3 - 2022-10-07
+- next steps to finish UI customization
+  - set editor gutter color
+  - link helpful resources in README
+  - fork a [Cute Pink Dark Theme](https://github.com/openmindculture/intellij-cute-pink-dark-theme)
+
 ## 0.5.0 - 2022-07-20
 ### Fixed
 - Ensure compatibility for 2022.2 (222, PS-222.*)
