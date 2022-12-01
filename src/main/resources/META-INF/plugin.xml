@@ -3,7 +3,7 @@
     <id>com.github.openmindculture.intellijcutepinkdarktheme</id>
     <description>Cute Pink Dark Theme for IntelliJ Platform is the dark variant of Cute Pink Light Theme.</description>
     <change-notes>Initial theme release. Basic theme functionality.</change-notes>
-    <version>0.6.4</version>
+    <version>0.7.0</version>
     <vendor url="https://github.com/openmindculture/">Ingo Steinke (openmindculture)</vendor>
 
     <!-- Compatible with the following versions of IntelliJ Platform:
