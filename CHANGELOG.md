@@ -22,6 +22,9 @@
 - add Cute Pink Dark Theme variant as a downstream repository
 - set editor background and gutter color
 
+## 0.9.0 - 2023-09-01
+- add missing color definitions for 2023.2 ##17
+
 ## 0.8.4 - 2023-07-31
 ### Fixed
 - Extend future compatibility beyond 2023.2 (232)

@@ -58,24 +58,48 @@ wizard for creating a UI theme. See:
 - https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/
 - https://plugins.jetbrains.com/docs/intellij/theme-structure.html
 
-To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF).
+To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF):
+> The UI Inspector is a powerful tool to investigate the IntelliJ-based IDE UI elements to get an internal description of each element. In addition, UI elements can be tested interactively with Ctrl+Alt+Click on the element.
+>
+> Before using the UI Inspector, it must be enabled by selecting the menu item Tools | Internal Actions | UI | UI Inspector. The enabled state of the UI Inspector is modal; it remains enabled until it is disabled by selecting the menu item again.
+>
+> If the menu item Tools | Internal Actions is not available in IntelliJ IDEA, then the first step is [Enabling Internal Mode](https://plugins.jetbrains.com/docs/intellij/enabling-internal.html):
+>
+> From the main menu, select Help | Edit Custom Properties... This selection opens IntelliJ IDEA's idea.properties file. If it does not exist, IntelliJ IDEA will prompt to create one.
+>
+> Add the line shown below to the idea.properties file:
+>
+> `idea.is.internal=true`
+> Save the idea.properties file and restart IntelliJ IDEA.
 
-<<<<<<< HEAD
-- Edit colors in `src/main/META-INF/cute_pink_dark_theme.json`.
-=======
+More information about colors and fonts can be found here: https://www.jetbrains.com/help/idea/configuring-colors-and-fonts.html
+
 ### Development, Build and Export
 
-- Edit colors in `src/main/META-INF/cute_pink_light_theme.json`.
-- Edit theme version, supported IDE versions, and other data, in 
-  - `src/main/resources/META-INF/plugin.xml`
-  - `src/main/resources/META-INF/MANIFEST.MF` (only used for alternative manual export)
-  - `gradle.properties` (only used for IntelliJ gradle build)
-  - `build.gradle.kts` (only used for IntelliJ gradle build)
-- Edit the `CHANGELOG.md` 
+- Edit colors in `src/main/META-INF/cute_pink_dark_theme.json`.
+- As a contributor:
+  - create a pull request on GitHub.
+- As a maintainer:
+  - Edit theme version, supported IDE versions, and other data, in 
+    - `src/main/resources/META-INF/plugin.xml`
+    - `src/main/resources/META-INF/MANIFEST.MF`
+    - `package.json`
+    - `gradle.properties` (only used for IntelliJ gradle build)
+    - `build.gradle.kts` (only used for IntelliJ gradle build)
+  - Build using one of the methods described below. 
+  - Add a change log in `CHANGELOG.md`. 
+  - Add a git tag, create a release, and add the theme zip.
+  - Upload the theme zip to JetBrains marketplace.
+
+#### Shell Build (beta)
+
+`npm run build`
+
+- requires `bash`/`sh`!
+- creates a `build/distributions/intellij-cute-pink-light-theme-x.y.z.zip`
 
 #### IntelliJ Gradle Build 
 
->>>>>>> upstream/main
 - `Build` the project from IntelliJ Build menu.
 - `Run Verifications` recreates artifacts.
   - the actual verification can be skipped for a theme plugin that does not implement any code,
@@ -102,6 +126,9 @@ Create an archive `intellij-cute-pink-dark-theme-x.y.z.zip` containing:
             - `MANIFEST.MF`
 
 A valid `MANIFEST.MF` example is included to simplify theme export and update.
+
+You can use the build script `./build.sh $version` to build, e.g.
+`./build.sh 2.9.0`
 
 #### Fix Problems and Incompatibilities
 
