@@ -22,7 +22,7 @@ You can install the theme from JB marketplace (inside your IDE) or install zip f
 
 ### Screenshot
 
-![screenshot](cute-pink-dark-theme-0.6.0.png) TODO change!
+![screenshot](cute-pink-dark-theme-0.9.1.png)
 
 ### Local Installation
 

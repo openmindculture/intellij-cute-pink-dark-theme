@@ -3,8 +3,9 @@
 # intellij-cute-pink-dark-theme Changelog
 
 ## 0.9.1 - 2024-02-13
-- fix erroneous ids
-- merge updates from upstream (Cute Pink Light Theme)
+- use dark theme base
+- adapt foreground colors
+- fix erroneous theme ids to prevent conflicts with Cute Pink Light Theme
 - upgrade dependencies
 
 ## 0.9.0 - 2023

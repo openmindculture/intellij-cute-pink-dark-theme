@@ -1,6 +1,6 @@
 {
   "name": "Cute Pink Dark",
-  "dark": false,
+  "dark": true,
   "author": "Ingo Steinke (openmindculture)",
   "editorScheme": "/cute_pink_dark.xml",
   "colors": {
@@ -8,9 +8,11 @@
     "whiteBg": "#FFFFFF",
     "pinkDeepBg": "#F14874",
     "whiteText": "#FFFFFF",
+    "pinkLight": "#FCEAF1",
     "pinkLightBg": "#FCEAF1",
     "pinkMediumBg": "#FCDEE9",
     "pinkDarkBg": "#F4B4CC",
+    "pinkDarkerBg": "#763F56",
     "purpleLightText": "#A192AB",
     "purpleMediumText": "#826585",
     "purpleDarkText": "#2A035B",
@@ -19,20 +21,20 @@
   },
   "ui": {
     "*": {
-      "background": "pinkLightBg",
+      "background": "pinkDarkerBg",
       "selectedBackground": "pinkMediumBg",
       "hoverBackground": "pinkDarkBg",
-      "foreground": "purpleDarkText",
+      "foreground": "pinkLight",
       "disabledText": "purpleLightText",
       "selectionBackground": "pinkDeepBg",
-      "selectionForeground": "whiteText",
+      "selectionForeground": "pinkLight",
       "underlineColor": "purpleRedBorder",
       "errorFocusColor": "purpleRedFocusRect"
     },
     "Editor.background": "blackBg",
-    "Button.default.foreground": "whiteText",
+    "Button.default.foreground": "pinkLight",
     "Borders": {
-      "color": "whiteBg",
+      "color": "purpleRedBorder",
       "ContrastBorderColor": "purpleRedBorder"
     },
     "Panel.foreground": "purpleDarkText",
